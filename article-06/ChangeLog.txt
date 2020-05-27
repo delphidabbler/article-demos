@@ -1,0 +1,15 @@
+v1.2 of 19 Feb 2010
++ Main environment variables unit brought into sync with code from article.
++ Renamed main unit from PJEnvVars to UEnvVars. Former clashed with Delphi library code on delphidabbler.com.
++ Added project file for later Delphis.
++ Added batch file to remove binaries and temporary editing files.
++ Switch off unsafe code warnings in Delphi 7 and later.
++ Updated code that executes child apps to work correctly on Unicode API.
++ Added disclaimers to source code.
++ Updated documentation.
+
+v1.1 of 13 Aug 2003
++ Fixed bug in GetEnvVar routine in PJEnvVars.pas
+
+v1.0 of unknown date
++ Original demo
