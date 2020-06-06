@@ -1,14 +1,3 @@
-@rem ---------------------------------------------------------------------------
-@rem Article #6 Demo program
-@rem
-@rem Script used to delete temporary files and directories.
-@rem
-@rem Copyright (C) Peter Johnson (www.delphidabbler.com), 2010
-@rem
-@rem $Rev: 48 $
-@rem $Date: 2010-02-06 23:37:52 +0000 (Sat, 06 Feb 2010) $
-@rem ---------------------------------------------------------------------------
-
 @echo off
 setlocal
 

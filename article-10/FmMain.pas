@@ -1,17 +1,3 @@
-{
- * This source code accompanies the article "How to create and use HTML resource
- * files" which can be found at
- * http://www.delphidabbler.com/articles?article=10.
- *
- * The code is merely a proof of concept and is intended only to illustrate the
- * article. It is not designed for use in its current form in finished
- * applications. The code is provided on an "AS IS" basis, WITHOUT WARRANTY OF
- * ANY KIND, either express or implied.
- *
- * $Rev: 16 $
- * $Date: 2009-09-26 04:04:46 +0100 (Sat, 26 Sep 2009) $
-}
-
 unit FmMain;
 
 interface

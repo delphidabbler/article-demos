@@ -1,10 +1,3 @@
-(*
-  All the code presented in this unit is Copyright Peter D Johnson
-  www.delphidabbler.com, (c) 2004.
-
-  The code is used at the user's own risk. No guarantee or warranty is provided.
-*)
-
 unit UFileCatcher;
 
 interface
