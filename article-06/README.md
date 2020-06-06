@@ -8,3 +8,4 @@ To learn how to use the demo see `ReadMe.txt`.
 
 There is a change log for this demo: see `ChangeLog.txt`.
 
+The demo code is licensed under the [MIT License](https://github.com/delphidabbler/article-demos/blob/master/LICENSE.md).
