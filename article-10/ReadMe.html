@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+ * This file accompanies the article "How to create and use HTML resource files"
+ * which can be found at http://www.delphidabbler.com/articles?article=10.
+ *
+ * Demo read-me file that provides information about building and using the
+ * demo.
+ *
+ * $Rev: 20 $
+ * $Date: 2009-09-26 04:15:30 +0100 (Sat, 26 Sep 2009) $
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+	<title>
+		DelphiDabbler.com: Article #10 Demo Readme
+	</title>
+
+	<style type="text/css">
+		body {
+			margin: 1em;
+			padding: 0;
+			font-family: Verdana, Arial, sans-serif;
+			font-size: 9pt;
+			line-height: 150%;
+		}
+		h1 {
+			margin: 0 0 1em 0;
+			padding: 0.5em;
+			border: 1px silver solid;
+			background-color: #EEEEEE;
+			font-size: 13pt;
+			font-weight: bold;
+			text-align: center;
+		}
+		h2 {
+			margin: 1em 0 0 0;
+			padding: 0;
+			padding-bottom: 6px;
+			border-bottom: 1px silver solid;
+			font-size: 11pt;
+			font-weight: bold;
+		}
+		h3 {
+			margin: 0.5em 0 0 0;
+			padding: 0;
+			font-size: 9pt;
+			font-weight: bold;
+		}
+		p {
+			margin: 0.5em 0 0 0;
+			padding: 0;
+		}
+		ul, ol {
+			margin: 0.5em 0 0 3em;
+			padding: 0;
+		}
+		ul {
+			list-style-type: square;
+		}
+		ul.spaced li, ol.spaced li {
+			margin-top: 0.5em;
+		}
+		code {
+			font-family: "Courier New", Courier, monospace;
+		}
+		a:link, a:active {
+			color: blue;
+			text-decoration: none;
+		}
+		a:visited {
+			color: darkblue;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		span.articlename {
+			color: navy;
+			font-style: italic;
+		}
+		div.endnotes {
+			margin: 1.5em 0 0 0;
+			padding: 1em 0 0 0;
+			border-top: 1px silver solid;
+		}
+		div.comments {
+			font-style: italic;
+		}
+		div.copyright {
+			margin: 1em 0 0 0;
+			color: gray;
+			font-size: 8pt;
+			text-align: right;
+		}
+		div.copyright a:link,
+		div.copyright a:visited,
+		div.copyright a:active {
+			color: gray;
+		}
+	</style>
+
+</head>
+
+<body>
+
+<h1>
+	DelphiDabbler.com<br />
+	Demo Project for Article #10:<br />
+	<span class="articlename">&quot;How to create and use HTML resource
+	files&quot;</span>
+</h1>
+
+<p>
+	The demo was developed on Delphi 7 and tested with Delphi 7 and Delphi 2010.
+	The code is likely to compile on any version from 7 up and maybe on earlier
+	compilers, though this has not been tested.
+</p>
+
+<p>
+	Load the project file, <code>Article10.dpr</code>, into Delphi and compile
+	and run it. If successful you should see a window, titled <strong>Article
+	#10 Demo</strong>, that has four buttons across the top, a greyed-out,
+	empty, edit box and an empty web browser control.
+</p>
+
+<p>
+	The available buttons are:
+</p>
+
+<ul class="spaced">
+
+	<li><em>Show Index Page</em>: loads and displays the HTML resource named
+	<code>INDEX_PAGE</code>. Clicking the &quot;Page 1&quot; and
+	&quot;Page 2&quot; links on this page will cause the <code>PAGE_1</code> and
+	<code>PAGE_2</code> HTML resources to be loaded and displayed, respectively.
+	Clicking the index page's logo accesses the DelphiDabbler website. The page
+	also contains a link to the article.</li>
+
+	<li><em>Show Logo Only</em>: displays the DelphiDabber logo GIF on its own.
+	This resource is named <code>LOGO_GIF</code> and is also used by other
+	pages.</li>
+
+	<li><em>Show Raw CSS</em>: displays the contents of the resource containing
+	the application's Cascading Style Sheets. This resource is linked to by all
+	HTML pages except the one stored in <em>RT_RCDATA</em> resources. The style
+	sheet resource is named <code>STYLE_CSS</code> and is displayed without
+	formatting.</li>
+
+	<li><em>Show RCDATA Page</em>: displays another HTML resource. This resource
+	has the <em>RT_RCDATA</em> type instead of the <em>RT_HTML</em> type used by
+	the other resources. It also has a numeric resource name
+	(<code>42</code>).</li>
+
+</ul>
+
+<p>
+	The edit box below the buttons displays the <code>res://</code> URL used to
+	by each button to display the required content. You can copy the URL from
+	the edit box to the clipboard and paste it into <em>Internet Explorer</em>'s
+	location bar. Pressing Enter will cause IE to displayed the resource in the
+	browser. All links will still work.
+</p>
+
+<p>
+	The source files that are embedded in the application's resources are
+	provided in the <code>HTML</code> sub-folder. <code>HTML.rc</code>
+	references all the files in the <code>HTML</code> folder and causes them to
+	be embedded in either <em>RT_HTML</em> or <em>RT_RCDATA</em> resources in
+	the binary resource file <code>HTML.res</code> (provided). This resource
+	file is linked into the program in the main project file. The binary file
+	was built using <em>BRCC32</em>.
+</p>
+
+<div class="endnotes">
+
+	<div class="comments">
+		If you have any comments on the article or this source code, or if you
+		have found a bug, please let me know. You can contact me via my website
+		<a
+			href="http://www.delphidabbler.com/contact" target="_blank"
+		>contact page</a>.
+	</div>
+
+	<div class="copyright">
+		Copyright &copy; 2004-2009, P D Johnson,
+		<a
+			href="http://www.delphidabbler.com" target="_blank"
+		>www.delphidabbler.com</a>.
+	</div>
+
+</div>
+
+</body>
+
+</html>

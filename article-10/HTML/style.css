@@ -1,0 +1,29 @@
+/*
+ * This file accompanies the article "How to create and use HTML resource files"
+ * which can be found at http://www.delphidabbler.com/articles?article=10.
+ *
+ * CSS used by some demo HTML pages. Stored in resources with type HTML named
+ * STYLE_CSS.
+ *
+ * $Rev: 19 $
+ * $Date: 2009-09-26 04:12:31 +0100 (Sat, 26 Sep 2009) $
+ */
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+
+h1 {
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px #C6C6FF solid;
+  border-bottom: 1px #C6C6FF solid;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #003399;
+}
+

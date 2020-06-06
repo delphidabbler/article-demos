@@ -1,0 +1,22 @@
+/*
+ * Resources for demo program that accompanies the article "How to create and
+ * use HTML resource files" which can be found at which can be found at
+ * http://www.delphidabbler.com/articles?article=10.
+ *
+ * $Rev: 17 $
+ * $Date: 2009-09-26 04:08:21 +0100 (Sat, 26 Sep 2009) $
+*/
+
+/* standard resource # for HTML */
+#define HTML 23
+
+/* HTML resource */
+INDEX_PAGE  HTML   "HTML\index.html"
+PAGE_1      HTML   "HTML\page1.html"
+PAGE_2      HTML   "HTML\page2.html"
+LOGO_GIF    HTML   "HTML\logo.gif"
+STYLE_CSS   HTML   "HTML\style.css"
+
+/* RCDATA resource */
+42          RCDATA "HTML\rcdata.html"
+
