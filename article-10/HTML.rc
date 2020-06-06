@@ -1,12 +1,3 @@
-/*
- * Resources for demo program that accompanies the article "How to create and
- * use HTML resource files" which can be found at which can be found at
- * http://www.delphidabbler.com/articles?article=10.
- *
- * $Rev: 17 $
- * $Date: 2009-09-26 04:08:21 +0100 (Sat, 26 Sep 2009) $
-*/
-
 /* standard resource # for HTML */
 #define HTML 23
 
