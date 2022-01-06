@@ -10,10 +10,6 @@ type
   TForm1 = class(TForm)
     ListBox1: TListBox;
     procedure FormCreate(Sender: TObject);
-  private
-    { Private declarations }
-  public
-    { Public declarations }
   end;
 
 var
@@ -116,29 +112,29 @@ begin
   Result := TDirectory.Exists(InstDir);
 end;
 
-function DCC32Exists(SubKey: string): Boolean;
-begin
-  if not InstallDirExists(SubKey) then
-    Exit(False);
-  var FileName: string := IncludeTrailingPathDelimiter(GetInstallDir(SubKey))
-    + 'Bin' + PathDelim + 'DCC32.exe';
-  Result := TFile.Exists(FileName);
-end;
+//function DCC32Exists(SubKey: string): Boolean;
+//begin
+//  if not InstallDirExists(SubKey) then
+//    Exit(False);
+//  var FileName: string := IncludeTrailingPathDelimiter(GetInstallDir(SubKey))
+//    + 'Bin' + PathDelim + 'DCC32.exe';
+//  Result := TFile.Exists(FileName);
+//end;
 
-function FindInstallations: TArray<TDelphiInfo>;
-begin
-  SetLength(Result, Length(AllDelphis));
-  var FoundCount: Integer := 0;
-  for var Rec: TDelphiInfo in AllDelphis do
-  begin
-    if IsRegistered(Rec.RegKey) then
-    begin
-      Result[FoundCount] := Rec;
-      Inc(FoundCount);
-    end;
-  end;
-  SetLength(Result, FoundCount);
-end;
+//function FindInstallations: TArray<TDelphiInfo>;
+//begin
+//  SetLength(Result, Length(AllDelphis));
+//  var FoundCount: Integer := 0;
+//  for var Rec: TDelphiInfo in AllDelphis do
+//  begin
+//    if IsRegistered(Rec.RegKey) then
+//    begin
+//      Result[FoundCount] := Rec;
+//      Inc(FoundCount);
+//    end;
+//  end;
+//  SetLength(Result, FoundCount);
+//end;
 
 function FindInstallations2: TArray<TDelphiInfo>;
 begin
@@ -155,20 +151,20 @@ begin
   SetLength(Result, FoundCount);
 end;
 
-function FindInstallations3: TArray<TDelphiInfo>;
-begin
-  SetLength(Result, Length(AllDelphis));
-  var FoundCount: Integer := 0;
-  for var Rec: TDelphiInfo in AllDelphis do
-  begin
-    if IsRegistered(Rec.RegKey) and DCC32Exists(Rec.RegKey) then
-    begin
-      Result[FoundCount] := Rec;
-      Inc(FoundCount);
-    end;
-  end;
-  SetLength(Result, FoundCount);
-end;
+//function FindInstallations3: TArray<TDelphiInfo>;
+//begin
+//  SetLength(Result, Length(AllDelphis));
+//  var FoundCount: Integer := 0;
+//  for var Rec: TDelphiInfo in AllDelphis do
+//  begin
+//    if IsRegistered(Rec.RegKey) and DCC32Exists(Rec.RegKey) then
+//    begin
+//      Result[FoundCount] := Rec;
+//      Inc(FoundCount);
+//    end;
+//  end;
+//  SetLength(Result, FoundCount);
+//end;
 
 function TryGetFilePath(BaseName, SubKey: string; out Path: string): Boolean;
 begin
@@ -179,6 +175,8 @@ begin
     + 'Bin' + PathDelim + BaseName;
   Result := TFile.Exists(Path);
 end;
+
+{ TForm1 }
 
 procedure TForm1.FormCreate(Sender: TObject);
 const
