@@ -1,4 +1,4 @@
-# Demo code for Article 25
+# Demo code for Article 24
 
 This directory contains demo code for DelphiDabbler's article "[How to receive data dragged from other applications](https://delphidabbler.com/articles/article-24)".
 
