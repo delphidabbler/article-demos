@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+ * This file accompanies the article "How to load and save documents in
+ * TWebBrowser in a Delphi-like way" which can be found at
+ * http://www.delphidabbler.com/articles?article=14.
+ * 
+ * Provides content of demo program's help pane. Stored in HTML resources with
+ * resource name HELP_HTML.
+ * 
+ * $Rev: 29 $
+ * $Date: 2010-02-05 17:17:59 +0000 (Fri, 05 Feb 2010) $
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ansi" />
+	<style type="text/css">
+		/*<![CDATA[*/
+		<!--
+		body {
+		  font-family: "Arial";
+		  font-size: 8pt;
+		  color: black;
+		  margin-left: 2px;
+		  margin-right: 2px;
+		  margin-top: 0px;
+		  margin-bottom: 0px;
+		  background-color: #FFFFDD;
+		}
+		h1 {
+		  font-size: 12pt;
+		  color: navy;
+		  margin-top: 0px;
+		  margin-bottom: 0px;
+		}
+		h2 {
+		  font-size: 10pt;
+		  color: navy;
+		  margin-top: 4px;
+		  margin-bottom: 0px;
+		}
+		h3 {
+		  font-size: 8pt;
+		  margin-top: 4px;
+		  margin-bottom: 0px;
+		}
+		p {
+		  margin-top: 4px;
+		  margin-bottom: 0px;
+		}
+		ul {
+		  margin-top: 0px;
+		  margin-bottom: 0px;
+		  padding-left: 0px;
+		  margin-left: 16px;
+		  text-indent: 0px;
+		}
+		li {
+		  margin-top: 4px;
+		  margin-bottom: 0px;
+		}
+		.note {
+		  background-color: #eec;
+		  padding: 0.25em;
+		}
+		-->
+		/*]]>*/
+</style>
+<title>
+	Help file for DelphiDabbler Article #14 Demo
+</title>
+
+</head>
+
+<body>
+
+<h1>
+	Demo Help
+</h1>
+
+<p>
+	This pane describes how to use this demo program which accompanies the
+	article &quot;<a
+		href="http://www.delphidabbler.com/articles.php?article=14"
+		target="_blank"
+	>How to load and save documents in TWebBrowser in a Delphi-like
+	way</a>&quot;.
+</p>
+
+<p>
+	The program's main window has five main areas:
+</p>
+
+<ul>
+	<li>
+		The top left pane, labelled &quot;Test browser&quot; contains a
+		<var>TWebBrowser</var> control that is used to display sample output. The
+		control is wrapped by a <var>TWebBrowserWrapper</var> object, as defined
+		in the article and included in this demo as
+		<code>UWebBrowserWrapper.pas</code>.
+	</li>
+	<li>
+		The text box labelled &quot;HTML Code&quot; displays code or text
+		extracted from the test browser using the various Save buttons. HTML
+		code can be entered in the box and loaded into the browser using the
+		Load buttons. To generate some sample HTML code to load into the browser
+		click the &quot;Show Sample HTML source&quot; link above the text
+		box. You are given a choice of HTML to load - each option has a
+		different encoding.
+	</li>
+	<li>
+		The bottom part of the screen displays various buttons that are used to
+		exercise <var>TWebBrowserWrapper</var>'s methods.
+	</li>
+	<li>
+		The right hand pane displays this help message. It was loaded using the
+		<var>TWebBrowserWrapper.NavigateToResource</var> method.
+	</li>
+	<li>
+		<div>
+			The status bar shows the character set being used by the document
+			currently displayed in the browser control.
+		</div>
+		<div class="note" style="margin-top:4px;">
+			<strong>Note:</strong> Unicode builds of the demo also show the
+			encoding used to load the last document into the browser control.
+		</div>
+	</li>
+</ul>
+
+<p>
+	The buttons exercise the various methods of the
+	<var>TWebBrowserWrapper</var> class discussed in the article. Let's look at
+	their use now.
+</p>
+
+<p class="note">
+	<strong>Note:</strong>
+	If you built the demo without Unicode support (i.e. using Delphi 2006 or
+	earlier) some buttons may not work as expected if a non-ANSI document is
+	loaded into the browser control.
+</p>
+
+<h2>
+	Save Buttons
+</h2>
+
+<p>
+	The save buttons all operate on the current content of the demo browser.
+</p>
+
+<h3>
+	Save to String button
+</h3>
+
+<p>
+	Clicking this button saves the current content of the demo browser in a
+	string and then displays the string in the HTML code window.
+</p>
+
+<p class="note">
+	<strong>Note:</strong> If Unicode is supported the current is remembered
+	and used the next time the HTML code is loaded.
+</p>
+
+<h3>
+	Save to Stream button
+</h3>
+
+<p>
+	This button saves the current demo browser content to a stream and then
+	loads the stream into the HTML code window. It's effect is the same as the
+	Save to String button except that it operates in a different way.
+</p>
+
+<p class="note">
+	<strong>Note:</strong> If Unicode is supported a dialog box appears that
+	allows you to change the default encoding used to write the HTML to stream.
+</p>
+
+<h3>
+	Save to File button
+</h3>
+
+<p>
+	Clicking this button displays a standard file save dialog box where you
+	enter a file name. The content of the demo browser is then saved to the
+	file.
+</p>
+
+<p class="note">
+	<strong>Note:</strong> If Unicode is supported a dialog box appears that
+	allows you to change the encoding used to write the file.
+</p>
+
+<h2>
+	Load Buttons
+</h2>
+
+<p>
+	These buttons are used to load HTML content into an existing document. Each
+	button gets the HTML code from a different source.
+</p>
+
+<h3>
+	Load From String button
+</h3>
+
+<p>
+	This button extracts the contents of the HTML Code text box and stores it in
+	a string. It then loads the string into the demo browser (no checks are made
+	that this is valid HTML). Some sample HTML code to load can be displayed in
+	the text box by clicking the &quot;Show Sample HTML code&quot; link above
+	the text box.
+</p>
+
+<p class="note">
+	<strong>Note:</strong> If Unicode is supported the encoding currently used
+	by the code in the HTML Code edit control is used to interpret the string.
+</p>
+
+<h3>
+	Load From Stream button
+</h3>
+
+<p>
+	This performs the same action as the Load from String button, except this
+	button stores the HTML code text box contents in a stream and then loads
+	the demo browser document from the stream.
+</p>
+
+<p class="note">
+	<strong>Note:</strong> If Unicode is supported the encoding currently used
+	by the code in the HTML Code edit control is used to format the stream to
+	be loaded.
+</p>
+
+<h3>
+	Load From File button
+</h3>
+
+<p>
+	Clicking this button opens a standard file open dialog box and loads the
+	HTML from whichever local file is selected. Some sample files named
+	<code>Test-XXX.html</code> are included with the demo, where XXX describes
+	the encoding used to save the files.
+</p>
+
+<h2>
+	Navigate Buttons
+</h2>
+
+<p>
+	These buttons are used to navigate to a given URL. The article describes the
+	difference between the <var>Navigate***</var> and <var>Load***</var> methods
+	of <var>TWebBrowserWrapper</var>.
+</p>
+
+<h3>
+	Navigate to URL button
+</h3>
+
+<p>
+	Clicking this button navigates the demo browser to the URL entered in the
+	URL edit box that lies above the status bar. Enter any valid URL in this box
+	before clicking the button.
+</p>
+
+<h3>
+	Navigate to Local File button
+</h3>
+
+<p>
+	A file open dialog is displayed when this button is clicked from where a
+	local file can be selected. The selected file is then loaded into demo
+	browser using the <code>file://</code> protocol. The sample files discussed
+	above can be selected.
+</p>
+
+<h3>
+	Navigate to Resource button
+</h3>
+
+<p>
+	This button causes a HTML file from the program's resources to be loaded
+	into the demo browser using the <code>res://</code> protocol.
+</p>
+
+<h2>
+	Experiment Please
+</h2>
+
+<p>
+	Go ahead - experiment and check the source code!
+</p>
+
+</body>
+
+</html>

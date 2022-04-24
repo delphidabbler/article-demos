@@ -1,0 +1,38 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!-- 
+ * This file accompanies the article "How to load and save documents in
+ * TWebBrowser in a Delphi-like way" which can be found at
+ * http://www.delphidabbler.com/articles?article=14.
+ * 
+ * Sample HTML file with UTF-8 encoding to be stored in RCDATA resources.
+ *
+ * $Rev: 26 $
+ * $Date: 2010-02-05 17:08:20 +0000 (Fri, 05 Feb 2010) $
+-->
+<html>
+<head>
+<title>
+	Sample UTF-8 HTML File
+</title>
+</head>
+<body>
+<h1>
+	Sample HTML
+</h1>
+<p>
+	This sample page is stored with <strong>UTF-8 encoding</strong>.
+</p>
+<p>
+	Its purpose is to be loaded into the demo program's HTML Code window and
+	either edited or loaded using the <em>Load from String</em> or <em>Load from
+	Stream</em> buttons.
+</p>
+<p>
+	<strong>WARNING:</strong> Using the <em>Save to String</em> and <em>Save to
+	Stream</em> with this code loaded into the browser control may cause
+	unexpected results in demos compiled without Unicode support. Non-Unicode
+	versions of <em>UWebBrowserWrapper</em> do not fully support non-ANSI
+	encodings.
+</p>
+</body>
+</html>
