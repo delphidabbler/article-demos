@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+ * This file accompanies the article "How to customise the TWebBrowser user
+ * interface" which can be found at
+ * http://www.delphidabbler.com/articles?article=18.
+ *
+ * Demo read-me file that provides information about building and using the
+ * demo.
+ *
+ * $Rev: 71 $
+ * $Date: 2010-05-30 12:42:13 +0100 (Sun, 30 May 2010) $
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+	<title>
+		DelphiDabbler.com: Article #18 Demo Readme
+	</title>
+
+	<style type="text/css">
+		<!--
+		body {
+			margin: 1em;
+			padding: 0;
+			font-family: Verdana, Arial, sans-serif;
+			font-size: 9pt;
+			line-height: 150%;
+		}
+		h1 {
+			margin: 0 0 1em 0;
+			padding: 0.5em;
+			border: 1px silver solid;
+			background-color: #EEEEEE;
+			font-size: 13pt;
+			font-weight: bold;
+			text-align: center;
+		}
+		h2 {
+			margin: 1em 0 0 0;
+			padding: 0;
+			padding-bottom: 6px;
+			border-bottom: 1px silver solid;
+			font-size: 11pt;
+			font-weight: bold;
+		}
+		h3 {
+			margin: 0.5em 0 0 0;
+			padding: 0;
+			font-size: 9pt;
+			font-weight: bold;
+		}
+		p {
+			margin: 0.5em 0 0 0;
+			padding: 0;
+		}
+		ul, ol {
+			margin: 0.5em 0 0 3em;
+			padding: 0;
+		}
+		ul {
+			list-style-type: square;
+		}
+		ul.spaced li, ol.spaced li {
+			margin-top: 0.5em;
+		}
+		ul.unspaced li, ol.unspaced li {
+			margin-top: 0em;
+		}
+		code {
+			font-family: "Courier New", Courier, monospace;
+		}
+		span.articlename {
+			color: navy;
+			font-style: italic;
+		}
+		div.endnotes {
+			margin: 1.5em 0 0 0;
+			padding: 1em 0 0 0;
+			border-top: 1px silver solid;
+		}
+		div.comments {
+			font-style: italic;
+		}
+		div.copyright,
+		div.copyright a:link,
+		div.copyright a:visited,
+		div.copyright a:active {
+			margin: 1em 0 0 0;
+			color: gray;
+			font-size: 8pt;
+			text-align: right;
+		}
+		-->
+	</style>
+
+</head>
+
+<body>
+
+<h1>
+	DelphiDabbler.com<br />
+	Demo Project for Article #18:<br />
+	<span class="articlename">&quot;How to customise the TWebBrowser user
+	interface&quot;</span>
+</h1>
+
+<p>
+	This download contains the code that was developed in my article
+	&quot;<a href="http://www.delphidabbler.com/articles?article=18">How to
+	customise the TWebBrowser user interface</a>&quot;.
+</p>
+
+<p>
+	The code is targetted at Delphi 7 and later. It has been tested with Delphi
+	7, 2006 and 2010 and includes project and project group files suitable for
+	all these compilers.
+</p>
+
+<p>There are two demos:</p>
+
+<ol class="spaced">
+	<li>
+		The &quot;phase 1&quot; version of the sample application from the
+		article. This shows an unmodified web browser displaying some HTML in
+		a form. The project is <code>WBUIArtDemo1.dpr</code> and it is in the
+		<code>ArticleDemo\Phase1</code> folder. The HTML that is displayed is
+		found in the <code>DlgContent.html</code> file in the
+		<code>Shared</code> folder.
+	</li>
+	<li>
+		<div>
+			The &quot;phase 2&quot; version of the above program. This project
+			configures the web browser control as follows:
+		</div>
+		<ul class="unspaced">
+			<li>
+				It uses the same background and fonts and theme as the form.
+			</li>
+			<li>
+				Scroll bars and borders are hidden.
+			</li>
+			<li>
+				A custom context menu is provided.
+			</li>
+			<li>
+				Text selection is prevented.
+			</li>
+		</ul>
+		<div style="margin-top:0.5em;">
+			The project is named <code>WBUIArtDemo2.dpr</code> and it is to be
+			found in the <code>ArticleDemo\Phase2</code> folder. This demo uses
+			the same HTML file, <code>DlgContent.html</code>, in the
+			<code>Shared</code> folder as used in phase 1.
+		</div>
+	</li>
+</ol>
+
+<p>
+	You should compile and test the demos then examine the source code. Please
+	review the programs alongside the article.
+</p>
+
+<p>
+	The code is merely a proof of concept and is intended only to illustrate the
+	article. It is not designed for use in its current form in finished
+	applications. The code is provided on an "AS IS" basis, WITHOUT WARRANTY OF
+	ANY KIND, either express or implied.
+</p>
+
+<div class="endnotes">
+
+	<div class="comments">
+		If you have any comments on the article or this source code, or if you
+		have found a bug, please let me know. You can contact me via my website
+		<a href="http://www.delphidabbler.com/contact.php">contact page</a>.
+	</div>
+
+	<div class="copyright">
+		Copyright &copy; 2004-2010, P D Johnson,
+		<a href="http://www.delphidabbler.com">www.delphidabbler.com</a>
+	</div>
+
+</div>
+
+</body>
+
+</html>
