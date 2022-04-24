@@ -1,12 +1,3 @@
-{
-  Form unit for RCDataUseer demo program
-  v1.0 of 26/03/2000
-  Part of a demo program to accompany PJSoft website articles
-  Copyright © PD Johnson, 2000
-  This code is free to do what you want with!
-}
-
-
 unit RCDataUserForm;
 
 interface

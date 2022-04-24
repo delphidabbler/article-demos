@@ -1,12 +1,3 @@
-{
-  RCDataUser v1.0
-  One of two demo programs to accompany PJSoft website articles about
-  embedding files in resource files
-  Copyright © PD Johnson, 2000
-  This code is free to do what you want with!
-}
-
-
 program RCDataUser;
 
 uses
