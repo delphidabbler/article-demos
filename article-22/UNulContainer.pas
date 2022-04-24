@@ -1,7 +1,7 @@
 {
   This demo application accompanies the article
   "How to call Delphi code from scripts running in a TWebBrowser" at
-  http://www.delphidabbler.com/articles?article=22.
+  https://delphidabbler.com/articles/article-22
 
   This unit provides a do-nothing implementation of a web browser OLE container
   object

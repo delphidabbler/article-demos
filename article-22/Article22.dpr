@@ -1,8 +1,7 @@
 {
   This demo application accompanies the article
-    "How to call Delphi code from scripts running in a TWebBrowser"
-  at
-    http://www.delphidabbler.com/articles.php?article=22
+  "How to call Delphi code from scripts running in a TWebBrowser" at
+  https://delphidabbler.com/articles/article-22
 
   This is the main project file.
 

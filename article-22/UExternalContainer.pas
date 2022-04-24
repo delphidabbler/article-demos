@@ -1,7 +1,7 @@
 {
   This demo application accompanies the article
   "How to call Delphi code from scripts running in a TWebBrowser" at
-  http://www.delphidabbler.com/articles?article=22.
+  https://delphidabbler.com/articles/article-22
 
   This unit defines the IDocHostUIHandler implementation that provides the
   external object to the TWebBrowser.
@@ -12,7 +12,7 @@
   v2.0 of 2006/02/11 - revised to descend from new TNulWBContainer class
 }
 
-           
+
 {$A8,B-,C+,D+,E-,F-,G+,H+,I+,J-,K-,L+,M-,N+,O+,P+,Q-,R-,S-,T-,U-,V+,W-,X+,Y+,Z1}
 
 
