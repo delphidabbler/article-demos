@@ -1,7 +1,7 @@
 {
   This demo application accompanies the article
   "How to handle drag and drop in a TWebBrowser control" at
-  http://www.delphidabbler.com/articles?article=25.
+  http://www.delphidabbler.com/articles/article-25.
 
   This shared unit defines IDocHostUIHandler and associated types.
 

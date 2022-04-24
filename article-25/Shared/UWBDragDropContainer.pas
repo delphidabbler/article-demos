@@ -1,7 +1,7 @@
 {
   This demo application accompanies the article
   "How to handle drag and drop in a TWebBrowser control" at
-  http://www.delphidabbler.com/articles?article=25.
+  http://www.delphidabbler.com/articles/article-25.
 
   This shared file provides web browser container that implements
   IOleClientSite, IDocHostUIHandler and exposes a property that can provide a
