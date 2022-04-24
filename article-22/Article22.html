@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xml:lang="en" lang="en">
+  <head>
+    <title>DelphiDabbler Articles</title>
+    <style type="text/css">
+      <!--
+      body {font-family: Tahoma; font-size: 10pt;}
+      h1 {font-size: 12pt;}
+      #precis {
+        border: 1px solid silver;
+        padding: 4px;
+      }
+      -->
+    </style>
+    <script type="text/javascript">
+      <!--
+      function ShowPrecis(progID) {
+        precisObj = document.getElementById("precis");
+        progObj = document.getElementById(progID);
+        precisObj.innerHTML = progObj.innerHTML.bold()
+          + '\<br />'
+          + external.GetPrecis(progID);
+      }
+      //-->
+    </script>
+  </head>
+  <body>
+    <h1>DelphiDabbler Program Descriptions</h1>
+    <ul>
+      <li><a href="javascript:void(0);" id="codesnip"
+        onclick="ShowPrecis('codesnip');"
+        onmouseover="external.ShowURL('codesnip');"
+        onmouseout="external.HideURL()";
+        >CodeSnip Database Viewer</a>
+      </li>
+      <li><a href="javascript:void(0);" id="htmlres"
+        onclick="ShowPrecis('htmlres');"
+        onmouseover="external.ShowURL('htmlres');"
+        onmouseout="external.HideURL()";
+        >HTML Resource Compiler</a>
+      </li>
+      <li><a href="javascript:void(0);" id="chi"
+        onclick="ShowPrecis('chi');"
+        onmouseover="external.ShowURL('chi');"
+        onmouseout="external.HideURL()";
+        >Component Help Installer</a>
+      </li>
+      <li><a href="javascript:void(0);" id="vis"
+        onclick="ShowPrecis('vis');"
+        onmouseover="external.ShowURL('vis');"
+        onmouseout="external.HideURL()";
+        >Version Information Spy</a>
+      </li>
+    </ul>
+    <div id="precis">
+      Click a program name to see its description here.
+    </div>
+  </body>
+</html>
+
