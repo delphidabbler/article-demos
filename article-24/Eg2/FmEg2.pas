@@ -4,10 +4,6 @@
   https://delphidabbler.com/articles/article-24.
 
   This unit defines the main form class of example program 2.
-
-  This code is copyright (c) P D Johnson (www.delphidabbler.com), 2006.
-
-  v1.0 of 2006/12/10 - original version
 }
 
 
