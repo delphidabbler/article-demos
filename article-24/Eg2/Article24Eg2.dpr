@@ -1,7 +1,7 @@
 {
   This demo application accompanies the article
   "How to receive data dragged from other applications" at
-  http://www.delphidabbler.com/articles?article=24.
+  https://delphidabbler.com/articles/article-24.
 
   This is the main project file of example program 2.
 
