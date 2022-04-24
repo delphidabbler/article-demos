@@ -2,12 +2,6 @@
   This demo application accompanies the article
   "How to get operating system version information" at
   https://delphidabbler.com/articles/article-23.
-
-  This unit defines the main form class.
-
-  This code is copyright (c) P D Johnson (www.delphidabbler.com), 2006.
-
-  v1.0 of 2006/02/19 - original version
 }
 
 
