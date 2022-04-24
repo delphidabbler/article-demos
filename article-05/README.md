@@ -1,4 +1,4 @@
-# Demo code for Article 04
+# Demo code for Article 05
 
 This directory contains demo code for DelphiDabbler's article "[How to write filters that extend the functionality of the TStream classes](https://delphidabbler.com/articles/article-5)".
 
