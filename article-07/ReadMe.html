@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+	<title>
+		DelphiDabbler.com: Article #7 Demo Readme
+	</title>
+
+	<style type="text/css">
+		<!--
+		body {
+			margin: 1em;
+			padding: 0;
+			font-family: Verdana, Arial, sans-serif;
+			font-size: 9pt;
+			line-height: 150%;
+		}
+		h1 {
+			margin: 0 0 1em 0;
+			padding: 0.5em;
+			border: 1px silver solid;
+			background-color: #EEEEEE;
+			font-size: 13pt;
+			font-weight: bold;
+			text-align: center;
+		}
+		h2 {
+			margin: 1em 0 0 0;
+			padding: 0;
+			padding-bottom: 6px;
+			border-bottom: 1px silver solid;
+			font-size: 11pt;
+			font-weight: bold;
+		}
+		h3 {
+			margin: 0.5em 0 0 0;
+			padding: 0;
+			font-size: 9pt;
+			font-weight: bold;
+		}
+		p {
+			margin: 0.5em 0 0 0;
+			padding: 0;
+		}
+		ul, ol {
+			margin: 0.5em 0 0 3em;
+			padding: 0;
+		}
+		ul {
+			list-style-type: square;
+		}
+		ul.spaced li, ol.spaced li {
+			margin-top: 0.5em;
+		}
+		code {
+			font-family: "Courier New", Courier, monospace;
+		}
+		span.articlename {
+			color: navy;
+			font-style: italic;
+		}
+		table {
+			margin: 0.5em 0 0 0;
+			padding: 0;
+			border-right: 1px silver solid;
+			border-top: 1px silver solid;
+		}
+		td {
+			border-left: 1px silver solid;
+			border-bottom: 1px silver solid;
+			padding: 4px;
+		}
+		div.endnotes {
+			margin: 1.5em 0 0 0;
+			padding: 1em 0 0 0;
+			border-top: 1px silver solid;
+		}
+		div.comments {
+			font-style: italic;
+		}
+		div.copyright,
+		div.copyright a:link,
+		div.copyright a:visited,
+		div.copyright a:active {
+			margin: 1em 0 0 0;
+			color: gray;
+			font-size: 8pt;
+			text-align: right;
+		}
+		-->
+	</style>
+
+</head>
+
+<body>
+
+<h1>
+	DelphiDabbler.com<br />
+	Demo Project for Article #7:<br />
+	<span class="articlename">&quot;How to dynamically add data to an executable
+	file&quot;</span>
+</h1>
+
+<h2>
+	Introduction
+</h2>
+
+
+<p>
+	This download contains the code that was developed in my
+	&quot;<a href="http://www.delphidabbler.com/articles.php?article=7"
+	target="_blank">How to dynamically add data to an executable file</a>&quot;
+	article.
+</p>
+
+<p>
+	The code is targetted at Delphi 4, but should work with later versions of
+	the compiler.
+</p>
+
+
+<h2>
+	Installing the files
+</h2>
+
+<p>
+	Simply unzip the downloaded .zip file into a new folder. The provided files
+	are:
+</p>
+
+<table cellspacing="0" cellpadding="0">
+	<tr>
+		<td>Payload.bpg</td>
+		<td>The Delphi project group file</td>
+	</tr>
+	<tr>
+		<td>Reader.dpr</td>
+		<td>Project file for the reader program</td>
+	</tr>
+	<tr>
+		<td>Reader.res</td>
+		<td>Resource file for the reader program</td>
+	</tr>
+	<tr>
+		<td>FmReader.pas</td>
+		<td>Source file for the reader program's main form</td>
+	</tr>
+	<tr>
+		<td>FmReader.dfm</td>
+		<td>Form file for the above</td>
+	</tr>
+	<tr>
+		<td>Writer.dpr</td>
+		<td>Project file for the writer program</td>
+	</tr>
+	<tr>
+		<td>Writer.res</td>
+		<td>Resource file for the writer program</td>
+	</tr>
+	<tr>
+		<td>FmWriter.pas</td>
+		<td>Source file for the writer program's main form</td>
+	</tr>
+	<tr>
+		<td>FmWriter.dfm</td>
+		<td>Form file for the above</td>
+	</tr>
+	<tr>
+		<td>UPayload.pas</td>
+		<td>Unit containing TPayload class and supporting code</td>
+	</tr>
+	<tr>
+		<td>ReadMe.html</td>
+		<td>This file</td>
+	</tr>
+</table>
+	
+<h2>
+	Compiling the projects
+</h2>
+
+<p>
+	This demo contains a project group file <code>Payload.bpg</code> which
+	contains two Delphi projects &ndash; <code>Reader.dpr</code> and
+	<code>Writer.dpr</code>. Load <code>Payload.bpg</code> into Delphi and then
+	compile both projects in the group.
+</p>
+
+<p>
+	Note that you cannot use <code>Writer.exe</code> until
+	<code>Reader.exe</code> has been compiled.
+</p>
+
+
+<h2>
+	Using the demo programs
+</h2>
+
+<p>
+	<code>Reader.exe</code> detects if any payload data is attached to it and
+	displays any such data (and its size). If no data is attached then the
+	program displays a message to this effect.
+</p>
+
+<p>
+	<code>Writer.exe</code> is used to attach data to <code>Reader.exe</code>
+	&ndash; you can enter text in a memo control and click the &quot;Store&quot;
+	button to attach this text as a payload to <code>Reader.exe</code>. To
+	remove the payload from <code>Reader.exe</code> click the &quot;Delete&quot;
+	button on the <code>Writer.exe</code> main window.
+</p>
+
+<p>
+	If no copy of <code>Reader.exe</code> exists in the same folder as 
+	<code>Writer.exe</code> then <code>Writer.exe</code> will detect this and
+	won't permit data to be written.
+</p>
+
+<p>
+	When experimenting with <code>Reader.exe</code> and <code>Writer.exe</code>
+	you should note the following:
+</p>
+
+<ol>
+	<li>
+		<code>Reader.exe</code> should always be run from Explorer and not from
+		the Delphi IDE. Using the IDE may cause the program to be re-compiled
+		which will destroy any payload data.
+	</li>
+	<li>
+		Always make sure that <code>Reader.exe</code> is closed before altering
+		it using <code>Writer.exe</code>. <code>Reader.exe</code> can't be
+		written to while running.
+	</li>
+</ol>
+
+<p>
+	The following experiments are suggested:
+</p>
+
+<ol>
+	<li>
+		Run <code>Reader.exe</code> immediately after compilation: it should
+		report that no payload is present. Close <code>Reader.exe</code>.
+	</li>
+	<li>
+		Start <code>Writer.exe</code>.
+	</li>
+	<li>
+		Enter some text in <code>Writer.exe</code>'s memo control and click the
+		&quot;Store&quot; button. Run <code>Reader.exe</code> and note that the
+		text just stored is displayed. Close <code>Reader.exe</code>.
+	</li>
+	<li>
+		Enter some longer text in <code>Writer.exe</code>'s memo and click
+		&quot;Store&quot;. Run <code>Reader.exe</code> and note the new text is
+		displayed. Close <code>Reader.exe</code>.
+	</li>
+	<li>
+		Repeat 4 using shorter text &ndash; this demonstrates that writing
+		shorter data truncates the previous data correctly.
+	</li>
+	<li>
+		Click <code>Writer.exe</code>'s &quot;Delete&quot; button. Run 
+		<code>Reader.exe</code> and note that data is no longer present. Note
+		that removing the payload like this also removes the payload footer
+		record, restoring the <code>Reader.exe</code> file to its original
+		state.
+	</li>
+	<li>
+		Ensure there is still text in <code>Writer.exe</code>'s memo control and
+		click the &quot;Store&quot; button. Check that the data has been stored
+		by running <code>Reader.exe</code>.
+	</li>
+	<li>
+		Clear the text from <code>Writer.exe</code>'s memo control and click
+		&quot;Store&quot;. Running <code>Reader.exe</code> should show that
+		there is no payload present &ndash; this shows that writing zero length
+		data is the same as explicitly removing the payload from a file.
+	</li>
+</ol>
+
+<div class="endnotes">
+
+	<div class="comments">
+		If you have any comments on the article or this source code, or if you
+		have found a bug, please let me know. You can contact me via my website
+		<a href="http://www.delphidabbler.com/contact.php" target="_blank">
+		contact page</a>.
+	</div>
+
+	<div class="copyright">
+		Copyright &copy; 2002-2005, P D Johnson,
+		<a href="http://www.delphidabbler.com" target="_blank">
+		www.delphidabbler.com</a>
+	</div>
+
+</div>
+
+</body>
+
+</html>
