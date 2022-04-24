@@ -1,1 +1,0 @@
-Demo for article #2 & article #3
