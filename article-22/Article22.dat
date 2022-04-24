@@ -1,0 +1,4 @@
+codesnip=Offline viewer for routines from CodeSnip database. Displays source of each unit and can test compile with any supported installed version of Delphi and Free Pascal.
+htmlres=Compiles HTML and associated files into RT_HTML resources in 32 bit resource files suitable for use with Internet Explorer's res:// protocol or with TWebBrowser.
+chi=Installs OpenHelp compatible help files for components etc. into Delphi 3 to 7. Available as stand-alone Windows and console applications and as an expert that integrates with Delphi.
+vis=Displays the version information from any file that contains it. Includes shell extensions for easy access to version information from Explorer.
