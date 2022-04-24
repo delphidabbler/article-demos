@@ -1,0 +1,30 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = Article25Demo1.exe Article25Demo2.exe Article25Demo3.exe \
+  Article25Demo4.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+Article25Demo1.exe: 1\Article25Demo1.dpr
+  $(DCC)
+
+Article25Demo2.exe: 2\Article25Demo2.dpr
+  $(DCC)
+
+Article25Demo3.exe: 3\Article25Demo3.dpr
+  $(DCC)
+
+Article25Demo4.exe: 4\Article25Demo4.dpr
+  $(DCC)
+
+
