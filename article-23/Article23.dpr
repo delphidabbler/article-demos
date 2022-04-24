@@ -1,7 +1,7 @@
 {
   This demo application accompanies the article
   "How to get operating system version information" at
-  http://www.delphidabbler.com/articles?article=23.
+  https://delphidabbler.com/articles/article-23.
 
   This is the main project file.
 
