@@ -4,12 +4,6 @@
   https://delphidabbler.com/articles/article-22
 
   This unit defines the IDocHostUIHandler interface and associated structures.
-
-  This code is copyright (c) P D Johnson (www.delphidabbler.com), 2005-2006.
-
-  v1.0 of 2005/05/09 - original version named IntfUIHandlers.pas
-  v1.1 of 2006/02/11 - revision based on unit of same name from article at
-                       http://www.delphidabbler.com/articles?article=22
 }
 
 

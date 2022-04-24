@@ -4,11 +4,6 @@
   https://delphidabbler.com/articles/article-22
 
   This unit defines a class that extends the TWebBrowser's external object.
-
-  This code is copyright (c) P D Johnson (www.delphidabbler.com), 2005-2006.
-
-  v1.0 of 2005/05/09 - original version
-  v1.1 of 2006/02/11 - changed base URL of programs to reflect current use
 }
 
 

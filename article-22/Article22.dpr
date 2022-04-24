@@ -4,8 +4,6 @@
   https://delphidabbler.com/articles/article-22
 
   This is the main project file.
-
-  This code is copyright (c) P D Johnson (www.delphidabbler.com), 2005.
 }
 
 
