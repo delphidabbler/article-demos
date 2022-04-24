@@ -1,0 +1,33 @@
+/*
+  Resource file containing VERSIONINFO resource statement
+  Produced by Version Information Editor from delphiDabbler
+*/
+
+#define VERINFO 1
+
+VERINFO VERSIONINFO
+FILEVERSION 1, 0, 0, 0
+PRODUCTVERSION 1, 0, 0, 0
+FILEFLAGSMASK 0x3F
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "080904E4"
+  {
+   VALUE "Comments", "Demo application for article #20 on www.delphidabbler.com\000"
+   VALUE "CompanyName", "DelphiDabbler\000"
+   VALUE "FileDescription", "Article#20 demo app.\000"
+   VALUE "FileVersion", "1.0\000"
+   VALUE "LegalCopyright", "Copyright (c) Peter Johnson 2005\000"
+   VALUE "OriginalFileName", "Article20\000"
+   VALUE "ProductName", "DelphiDabbler article#20\000"
+   VALUE "ProductVersion", "1.0\000"
+  }
+ }
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 0x0809, 1252
+ }
+}
