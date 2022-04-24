@@ -1,3 +1,10 @@
+{
+  This demo application accompanies the article
+  "How to get operating system version information" at
+  https://delphidabbler.com/articles/article-23.
+}
+
+
 unit UOSInfo;
 
 interface
