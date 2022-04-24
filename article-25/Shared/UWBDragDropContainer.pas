@@ -6,10 +6,6 @@
   This shared file provides web browser container that implements
   IOleClientSite, IDocHostUIHandler and exposes a property that can provide a
   IDropTarget implementation to the web browser.
-
-  This code is copyright (c) P D Johnson (www.delphidabbler.com), 2007.
-
-  v1.0 of 2007/04/22 - original version
 }
 
 

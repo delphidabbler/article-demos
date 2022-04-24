@@ -4,11 +4,6 @@
   http://www.delphidabbler.com/articles/article-25.
 
   This is an implementation of IDropTarget from example program 4.
-
-  This code is copyright (c) P D Johnson (www.delphidabbler.com), 2007.
-
-  v1.0 of 2007/04/22 - original version.
-  v1.1 of 2007/05/20 - changed implementation of TCustomDropTarget.CanDrop.
 }
 
 
