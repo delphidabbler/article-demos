@@ -1,5 +1,12 @@
 # Article #22 Demo Changelog
 
+## v1.1.1 of 2022/06/12
+
+* Changed example DelphiDabbler programs displayed in the demo HTML file.
+* Minor changes to modernise the demo HTML file
+* Corrected program URLs dislayed in main form.
+* Updated README.md and ReadMe.html re changes.
+
 ## v1.1 of 2006/02/01
 
 * Renamed `IntfUIHandlers.pas` as `IntfDocHostUIHandler.pas`
