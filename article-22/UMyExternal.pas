@@ -90,7 +90,7 @@ end;
 procedure TMyExternal.ShowURL(const ProgID: WideString);
 begin
   ShowSBMsg(
-    'http://www.delphidabbler.com/software?id=' + ProgID
+    'https://delphidabbler.com/software/' + ProgID
   );
 end;
 
