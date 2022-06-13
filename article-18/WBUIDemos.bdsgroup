@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{BD67A003-E246-4A42-91A8-50EDD5B4FBEF}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="WBUIArtDemo1.exe">Phase1\WBUIArtDemo1.bdsproj</Projects>
+      <Projects Name="WBUIArtDemo2.exe">Phase2\WBUIArtDemo2.bdsproj</Projects>
+      <Projects Name="Targets">WBUIArtDemo1.exe WBUIArtDemo2.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>
