@@ -2,11 +2,6 @@
 @rem Article #18 Demo program
 @rem
 @rem Script used to delete temporary files and directories.
-@rem
-@rem Copyright (C) Peter Johnson (www.delphidabbler.com), 2010
-@rem
-@rem $Rev: 59 $
-@rem $Date: 2010-05-30 03:08:50 +0100 (Sun, 30 May 2010) $
 @rem ---------------------------------------------------------------------------
 
 @echo off

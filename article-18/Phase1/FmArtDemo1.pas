@@ -1,15 +1,7 @@
 {
  * This source code accompanies the article "How to customise the TWebBrowser
  * user interface" which can be found at
- * http://www.delphidabbler.com/articles?article=18.
- *
- * The code is merely a proof of concept and is intended only to illustrate the
- * article. It is not designed for use in its current form in finished
- * applications. The code is provided on an "AS IS" basis, WITHOUT WARRANTY OF
- * ANY KIND, either express or implied.
- *
- * $Rev: 67 $
- * $Date: 2010-05-30 11:42:53 +0100 (Sun, 30 May 2010) $
+ * https://delphidabbler.com/articles/article-18.
 }
 
 
