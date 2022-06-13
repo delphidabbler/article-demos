@@ -3,11 +3,7 @@
  *
  * Interfaces, records and constants used when hosting the IE WebBrowser Control
  * or automating IE to replace the menus, toolbars, and context menus. The
- * content of the unit is based on Microsoft UI documentation from MSDN. Not all
- * the structures and constants are used in CodeSnip.
- *
- * $Rev: 66 $
- * $Date: 2010-05-30 11:40:56 +0100 (Sun, 30 May 2010) $
+ * content of the unit is based on Microsoft UI documentation from MSDN.
  *
  * ***** BEGIN LICENSE BLOCK *****
  *
@@ -15,7 +11,8 @@
  *
  * The contents of this file are subject to the Mozilla Public License Version
  * 1.1 (the "License"); you may not use this file except in compliance with the
- * License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+ * License. You may obtain a copy of the License at
+ * https://www.mozilla.org/en-US/MPL/1.1/
  *
  * Software distributed under the License is distributed on an "AS IS" basis,
  * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
@@ -24,7 +21,7 @@
  * The Original Code is IntfDocHostUIHandler.pas
  *
  * The Initial Developer of the Original Code is Peter Johnson
- * (http://www.delphidabbler.com/).
+ * (https://delphidabbler.com/).
  *
  * Portions created by the Initial Developer are Copyright (C) 2005-2010 Peter
  * Johnson. All Rights Reserved.
