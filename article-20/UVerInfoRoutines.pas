@@ -1,9 +1,5 @@
 {
-  Demo program for article # 20 "How to extract version information using the
-  Windows API" from http://www.delphidabbler.com/articles.php?id=20.
-
   Unit provides routines used to wrap version information API functions.
-  Copyright (c) 2005, P.D.Johnson (DelphiDabbler)
 }
 
 {$WARN UNSAFE_TYPE OFF}

@@ -1,9 +1,5 @@
 {
-  Demo program for article # 20 "How to extract version information using the
-  Windows API" from http://www.delphidabbler.com/articles.php?id=20.
-
   Unit implements class that encapsulates version from an executable file.
-  Copyright (c) 2005, P.D.Johnson (DelphiDabbler)
 }
 
 unit UVerInfoClass;

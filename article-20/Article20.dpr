@@ -1,11 +1,3 @@
-{
-  Demo program for article # 20 "How to extract version information using the
-  Windows API" from http://www.delphidabbler.com/articles.php?id=20.
-
-  Main project file
-  Copyright (c) 2005, P.D.Johnson (DelphiDabbler)
-}
-
 program Article20;
 
 uses
