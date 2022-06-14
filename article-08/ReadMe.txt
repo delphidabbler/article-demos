@@ -16,21 +16,20 @@ ReadMe file for ExeType demo project
 
 This demo exercises the ExeType function described in the article "How to detect
 the types of executable file" on the DelphiDabbler.com website. The article can
-be found at http://www.delphidabbler.com/articles.php?article=8
+be found at https://delphidabbler.com/articles/article-8
 
 
 2) Installing the files
 -----------------------
 
-Simply unzip the downloaded .zip file into a new folder. The provided files are:
+The files included in the demo are as follows:
 
-ExeType.cfg     - the demo program project config file
-ExeType.dof     - the demo program options file
 ExeType.dpr     - the demo program source file
 ExeType.res     - the demo program resource file
 MainForm.dfm    - the demo program main form
 MainForm.pas    - the demo program main form source (includes ExeType function)
 PJDropFiles.pas - unit used by main form source file
+ReadMe.txt      - this file
 
 
 3) Compiling the projects
@@ -60,10 +59,11 @@ the TExeFileKind enumeration).
 5) Copyright
 ------------
 
-All the code contained in this demo project is copyright (C) 1998-2003 by Peter
-Johnson, Llanarth, Wales, UK. The code can be freely used in your own projects
-on a non-commercial basis. Please contact the author via
-http://www.delphidabbler.com/contact.php if you wish to use the code in any other
-way or if you have comments or suggestions.
+All the code contained in this demo project, except for PJDropFiles.pas, is
+copyright (C) 1998-2003 by Peter Johnson (https://gravatar.com/delphidabbler)
+and is made available under the MIT License.
+
+See the comments in PJDropFiles.pas for details of the license that applies to
+that unit.
 
 -- END --
