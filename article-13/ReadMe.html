@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+  <title>
+    DelphiDabbler.com: Article #13 Demo Readme
+  </title>
+
+  <style type="text/css">
+    <!--
+    body {
+      margin: 1em;
+      padding: 0;
+      font-family: Verdana, Arial, sans-serif;
+      font-size: 9pt;
+      line-height: 150%;
+    }
+    h1 {
+      margin: 0 0 1em 0;
+      padding: 0.5em;
+      border: 1px silver solid;
+      background-color: #EEEEEE;
+      font-size: 13pt;
+      font-weight: bold;
+      text-align: center;
+    }
+    h2 {
+      margin: 1em 0 0 0;
+      padding: 0;
+      padding-bottom: 6px;
+      border-bottom: 1px silver solid;
+      font-size: 11pt;
+      font-weight: bold;
+    }
+    h3 {
+      margin: 0.5em 0 0 0;
+      padding: 0;
+      font-size: 9pt;
+      font-weight: bold;
+    }
+    p {
+      margin: 0.5em 0 0 0;
+      padding: 0;
+    }
+    ul, ol {
+      margin: 0.5em 0 0 3em;
+      padding: 0;
+    }
+    ul {
+      list-style-type: square;
+    }
+    ul.spaced li, ol.spaced li {
+      margin-top: 0.5em;
+    }
+    code {
+      font-family: "Courier New", Courier, monospace;
+    }
+    a:link, a:active {
+      color: blue;
+      text-decoration: none;
+    }
+    a:visited {
+      color: darkblue;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    span.articlename {
+      color: navy;
+      font-style: italic;
+    }
+    div.endnotes {
+      margin: 1.5em 0 0 0;
+      padding: 1em 0 0 0;
+      border-top: 1px silver solid;
+    }
+    div.comments {
+      font-style: italic;
+    }
+    div.copyright {
+      margin: 1em 0 0 0;
+      color: gray;
+      font-size: 8pt;
+      text-align: right;
+    }
+    div.copyright a:link,
+    div.copyright a:visited,
+    div.copyright a:active {
+      color: gray;
+    }
+    -->
+  </style>
+
+</head>
+
+<body>
+
+<h1>
+  DelphiDabbler.com<br />
+  Demo Project for Article #13:<br />
+  <span class="articlename">&quot;How to run a single instance of an
+  application&quot;</span>
+</h1>
+
+<h2>
+  Introduction
+</h2>
+
+<p>
+  This download contains the code that was developed in my
+  &quot;<a href="https://delphidabbler.com/articles/article-13"
+  target="_blank">How to run a single instance of an application</a>&quot;
+  article.
+</p>
+
+<p>
+  The code was originally written in Delphi 4 and was revised using Delphi 7
+  on 7th August 2005. The code was updated to work correctly when compiled with
+  Unicode versions of Delphi on 9th May 2011 and tested with Delphi 2010. The
+  code should work with versions back to Delphi 4 but this hasn't been tested.
+  If you find this is not the case, please let me know.
+</p>
+
+<p>
+  There are two different projects included in the demo &ndash;
+  <code>SingleInstDemo.dpr</code> and <code>TemplateDemo.dpr</code>. Each
+  project is stored in its own sub folder. Both are referenced by the project
+  group file <code>Article13.bpg</code> stored in the root folder. The
+  projects are described below.</p>
+<p>
+
+<h2>
+  TemplateDemo Project
+</h2>
+
+<p>
+  <em>TemplateDemo</em> is an exact copy of the code presented in part two of
+  the article. It compiles into a do-nothing application. Only one instance of
+  the application can be run at a time. Any minimized window will be restored
+  when an attempt is made to start a second instance.
+</p>
+
+<p>
+  The purpose of this &quot;do nothing&quot; demo is to provide some code that
+  can be copied into your own projects. Some of the &quot;bolier plate&quot;
+  code can be simply cut and pasted, while other code will need be to be
+  modified to suit. This code is suitable for a one off use, but if you
+  require a reusable or object oriented solution you will need to use the
+  <em>SingleInstDemo</em> demo below.
+</p>
+
+
+<h2>
+  SingleInstDemo Project
+</h2>
+
+<p>
+  This project brings together the code presented in part three of the
+  article. It compiles into an application that displays the parameters passed
+  to it in the form's list box. Only one instance of the application can be
+  run at a time. Any minimized window will be restored when an attempt is made
+  to start a second instance.
+</p>
+
+<p>
+  The program uses a subclassed version of <em>TSingleInst</em> named
+  <em>TMySingleInst</em>. The classes are implemented in
+  <code>USingleInst.pas</code> and <code>UMySingleInst.pas</code>
+  respectively. <em>TMySingleInst</em> simply provides a window class name for
+  the project's main form along with a watermark to use when passing data
+  between applications. The main form is implemented in <code>FmDemo.pas</code>
+  and <code>FmDemo.dfm</code>.
+</p>
+
+<p>
+  The main item of interest here is <code>UMySingleInst.pas</code> which is
+  designed to be reusable in various projects &ndash; the idea being to
+  include the unit in your project and to override <em>TSingleInst</em> to
+  customise it as required. <code>UMySingleInst.pas</code> simply provides an
+  example of how to do this. As noted in the article, you still need to make
+  a few &quot;boiler plate&quot; changes to the project and main form source
+  files. <code>SingleInstDemo.dpr</code> and <code>FmDemo.pas</code> show how
+  to do this.
+</p>
+
+<div class="endnotes">
+
+  <div class="comments">
+    If you have any comments on the article or this source code, or if you
+    have found a bug, please let me know. You can contact me via my website
+    <a href="http://www.delphidabbler.com/contact">contact page</a>.
+  </div>
+
+  <div class="copyright">
+    Copyright &copy; 2004-2011, P D Johnson,
+    <a href="http://www.delphidabbler.com">www.delphidabbler.com</a>
+  </div>
+
+</div>
+
+</body>
+
+</html>
