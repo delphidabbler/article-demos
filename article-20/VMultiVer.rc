@@ -1,0 +1,39 @@
+1 VERSIONINFO
+
+FILEVERSION 1, 2, 3, 4
+PRODUCTVERSION 11, 22, 33, 44
+FILEFLAGSMASK 0x3F
+FILEFLAGS VS_FF_PRIVATEBUILD + VS_FF_SPECIALBUILD
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904E4"
+    {
+      VALUE "Fred", "Fred's value\000"
+      VALUE "Bert", "Bert's value (American special build): 2002\000"
+      VALUE "SpecialBuild", "American special build\000"
+    }
+    BLOCK "080904E4"
+    {
+      VALUE "Comments", "Comments entry\000"
+      VALUE "CompanyName", "PJSoft\000"
+      VALUE "FileDescription", "A test multi language version info resource.\000"
+      VALUE "FileVersion", "v1.2.3.4\000"
+      VALUE "InternalName", "MultiVer\000"
+      VALUE "LegalCopyright", "Copyright (c) PJSoft 2002\000"
+      VALUE "LegalTrademarks", "\000"
+      VALUE "OriginalFileName", "MultiVer.fnt\000"
+      VALUE "PrivateBuild", "Not released\000"
+      VALUE "ProductName", "Version Info Tester <English Special Build>\000"
+      VALUE "ProductVersion", "Version Info Tester <English Special Build> Rel 11.22.33.44\000"
+      VALUE "SpecialBuild", "English Special Build\000"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0409, 1252, 0x0809, 1252
+  }
+}
