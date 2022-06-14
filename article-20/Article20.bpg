@@ -1,0 +1,29 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = Article20.exe MultiVer.exe NoTransVer.exe NoVerInfo.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+Article20.exe: Article20.dpr
+  $(DCC)
+
+MultiVer.exe: MultiVer.dpr
+  $(DCC)
+
+NoTransVer.exe: NoTransVer.dpr
+  $(DCC)
+
+NoVerInfo.exe: NoVerInfo.dpr
+  $(DCC)
+
+

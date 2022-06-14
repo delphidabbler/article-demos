@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{BBFCD756-0BD5-4A7C-BFD7-8A3C951441F5}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Phase1\WBUIArtDemo1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Phase2\WBUIArtDemo2.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="WBUIArtDemo1">
+			<MSBuild Projects="Phase1\WBUIArtDemo1.dproj"/>
+		</Target>
+		<Target Name="WBUIArtDemo1:Clean">
+			<MSBuild Targets="Clean" Projects="Phase1\WBUIArtDemo1.dproj"/>
+		</Target>
+		<Target Name="WBUIArtDemo1:Make">
+			<MSBuild Targets="Make" Projects="Phase1\WBUIArtDemo1.dproj"/>
+		</Target>
+		<Target Name="WBUIArtDemo2">
+			<MSBuild Projects="Phase2\WBUIArtDemo2.dproj"/>
+		</Target>
+		<Target Name="WBUIArtDemo2:Clean">
+			<MSBuild Targets="Clean" Projects="Phase2\WBUIArtDemo2.dproj"/>
+		</Target>
+		<Target Name="WBUIArtDemo2:Make">
+			<MSBuild Targets="Make" Projects="Phase2\WBUIArtDemo2.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="WBUIArtDemo1;WBUIArtDemo2"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="WBUIArtDemo1:Clean;WBUIArtDemo2:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="WBUIArtDemo1:Make;WBUIArtDemo2:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+ * This file accompanies the article "How to customise the TWebBrowser user
+ * interface" which can be found at
+ * https://delphidabbler.com/articles/article-18
+ *
+ * The file contains the content of the dialog box demonstrated by the article.
+-->
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Demo Dialog Content</title>
+    <script type="text/javascript">
+      function ViewArticle() {
+      	wdw = window.open();
+        wdw.document.location =
+          "https://delphidabbler.com/articles/article-18";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>About this demo</h1>
+    <p>
+      This demo relates to the DelphiDabbler.com article &quot;How to
+      customise the TWebBrowser user interface&quot;.
+      <input
+        type="button"
+        name="button"
+        id="button"
+        value="View article..."
+        onclick="ViewArticle();"
+      />
+    </p>
+    <p>
+      &copy; Copyright P D Johnson
+      (<a href="https://delphidabbler.com/"
+      target="_blank">delphidabbler.com</a>), 2004-2022.
+    </p>
+    <p class="ruled">
+      Right click above the line to see the custom pop-up menu.
+    </p>
+  </body>
+</html>
