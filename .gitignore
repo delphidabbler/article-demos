@@ -52,6 +52,7 @@
 
 # Delphi history and backups
 __history/
+__recovery/
 *.~*
 
 # Project specific files added by DelphiDabbler:
