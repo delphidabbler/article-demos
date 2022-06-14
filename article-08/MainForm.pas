@@ -1,16 +1,3 @@
-(*
-  DEMO Code for article 8 - How to detect the types of executable files.
-  from the Hints & Tips page at www.delphidabbler.com
-
-  NOTE: this code creates a TPJFormDropFiles component to handle files being
-  dragged and dropped from Windows explorer. The source code to the component is
-  included in the download. The component does not need to be installed --
-  simply ensure that PJDropFiles.pas is in the same folder as this unit.
-
-  COPYRIGHT: This code is copyright (C) 2003 by Peter D Johnson, Llanarth,
-  Ceredigion, Wales, UK.
-*)
-
 unit MainForm;
 
 interface

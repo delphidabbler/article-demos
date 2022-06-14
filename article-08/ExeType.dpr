@@ -1,11 +1,3 @@
-(*
-  DEMO Code for article 8 - How to detect the types of executable files.
-  from the Hints & Tips page at www.delphidabbler.com
-
-  COPYRIGHT: This code is copyright (C) 2003 by Peter D Johnson, Llanarth,
-  Ceredigion, Wales, UK.
-*)
-
 program ExeType;
 
 uses
