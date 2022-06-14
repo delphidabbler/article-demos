@@ -1,17 +1,3 @@
-{
- * This source code accompanies the article "How to load and save documents in
- * TWebBrowser in a Delphi-like way" which can be found at
- * http://www.delphidabbler.com/articles?article=14.
- *
- * The code is merely a proof of concept and is intended only to illustrate the
- * article. It is not designed for use in its current form in finished
- * applications. The code is provided on an "AS IS" basis, WITHOUT WARRANTY OF
- * ANY KIND, either express or implied.
- *
- * $Rev: 38 $
- * $Date: 2010-02-06 15:36:08 +0000 (Sat, 06 Feb 2010) $
-}
-
 unit FmSaveEncodingDlg;
 
 interface

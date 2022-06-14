@@ -1,12 +1,3 @@
-/*
- * Resources for demo program accompanies the article "How to load and save
- * documents in TWebBrowser in a Delphi-like way" which can be found at
- * http://www.delphidabbler.com/articles?article=14
- *
- * $Rev: 38 $
- * $Date: 2010-02-06 15:36:08 +0000 (Sat, 06 Feb 2010) $ 
-*/
-
 #define HTML 23
 
 /*
@@ -26,5 +17,3 @@ HTMLRES_HTML HTML "Resources\HTMLRes.html"
 SAMPLE_HTML_ANSI RCDATA "Resources\Sample-ANSI.html"
 SAMPLE_HTML_UTF8 RCDATA "Resources\Sample-UTF8.html"
 SAMPLE_HTML_UCS2LE RCDATA "Resources\Sample-UCS2LE.html"
-
-
