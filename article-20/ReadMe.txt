@@ -1,8 +1,8 @@
 This ReadMe file explains how to use the demo source code that accompanies the
 article "How to extract version information using the Windows API" at
-http://www.delphidabbler.com/articles.php?article=20.
+https://delphidabbler.com/articles/article-20.
 
-Included in the download are the following files:
+The following files are included in the demo:
 
 Article20.bpg          : main project group - four programs
 Article20.dpr          : project file for demo program
@@ -21,13 +21,12 @@ VNoTransVer.rc/.res    : resource with no translations in ver info
 To use the demo start Delphi and load Article20.bpg and select Article20.exe.
 Compile the program and run it.
 
-Select one of the list programs in the list box and and click the Test Class and
+Select one of the list programs in the list box and click the Test Class and
 Test Click buttons to exercise either class.
 
 There is no need to compile the MultiVer.exe, NoTransVer.exe or NoVerInfo.exe
 do-nothing programs since they are supplied ready compiled.
 
 Once the program has been tested, examine the code in UVerInfoClass.pas,
-UVerInfoRoutines.pas and UVerInfoTypes.pas along with the code that excerises
+UVerInfoRoutines.pas and UVerInfoTypes.pas along with the code that exercises
 them in FmDemo.pas.
-
