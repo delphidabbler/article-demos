@@ -1,6 +1,6 @@
-This zip archive contains the source code for a demo project that accompanies
-the article "How to add a program to the Explorer Send To menu" published at
-http://www.delphidabbler.com/articles.php?article=12.
+This is the source code for a demo project that accompanies the article "How to
+add a program to the Explorer Send To menu" published at
+https://delphidabbler.com/articles/article-12.
 
 USAGE
 
@@ -18,4 +18,4 @@ When finished experimenting click the "Delete Send-To Shortcut" button.
 
 COPYRIGHT
 
-Please see the source code files for copyright information.
+See README.md for copyright and licensing information.
