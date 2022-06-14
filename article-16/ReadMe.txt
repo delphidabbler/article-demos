@@ -1,6 +1,6 @@
 This source code is the demo code accompanying the delphiDabbler article
 "How to use the TListView OnCustomDrawXXX events" available from
-http://www.delphidabbler.com/articles.php?article=16.
+https://delphidabbler.com/articles/article-16.
 
 Compile the source code using Delphi (Created with Delphi 4 and tested
 with Delphi 4 and Delphi 7).
