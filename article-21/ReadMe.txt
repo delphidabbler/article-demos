@@ -1,6 +1,6 @@
 This ReadMe file explains how to use the demo source code that accompanies the
 article "How to call JavaScript functions in a TWebBrowser from Delphi" at
-http://www.delphidabbler.com/articles.php?article=21.
+https://delphidabbler.com/articles/article-21.
 
 Two demos are included in separate sub-directories. They are
 
