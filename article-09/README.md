@@ -1,4 +1,4 @@
-# Demo code for Article 09
+# Demo code for Article 9
 
 This directory contains demo code for DelphiDabbler's article "[How to get notified when the content of the clipboard changes](https://delphidabbler.com/articles/article-9)".
 
