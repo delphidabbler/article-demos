@@ -1,0 +1,23 @@
+<html><head>
+
+<script>
+function DoEval(expr){
+ // eval for delphi!
+ document.getElementById('result').value=eval(expr);
+}
+</script>
+
+</head><body>
+
+<input type='hidden' id='result' value=''>
+Type something here:
+<br><input type='text' id='something' value='Hi there!!'>
+<br><br>
+
+To get the above text, type the following code in the below text box:
+
+<textarea style='width:100%; height:30px;' readonly>
+document.getElementById('something').value;
+</textarea>
+
+</body></html>
