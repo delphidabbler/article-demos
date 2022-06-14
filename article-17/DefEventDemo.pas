@@ -1,13 +1,3 @@
-{
-  This code accompanies the article "How to set a component's default event
-  handler" at http://www.delphidabbler.com/articles.php?article=17.
-
-  The code is copyright (c) 2004, PD Johnson, www.delphidabbler.com.
-
-  See the ReadMe.html file that accompanies this download for details of how to
-  use this code.
-}
-
 {$A8,B-,C+,D-,E-,F-,G+,H+,I+,J+,K-,L-,M-,N+,O+,P+,Q-,R-,S-,T-,U-,V+,W-,X+,Y-,Z1}
 
 
