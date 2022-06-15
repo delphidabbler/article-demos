@@ -6,9 +6,12 @@ Each article's demo is placed in a subdirectory named after the article number.
 
 # Bugs
 
-If you find a bug in any of the demos please report it on the [Issues page](https://github.com/delphidabbler/article-demos/issues).
+> **Note:** Unless otherwise stated, the demos are designed for compilation with Delphi for Windows targets only. Please do not report bugs for other compilers or other OS targets.
 
-> **Note:** Unless stated, the demos are designed for compilation with Delphi for Windows targets only. Please do not report bugs for other compilers or other OS targets.
+*Only report bugs in article **demo** projects here. If you've found an error in an article itself please report it on the [website's Issues page](https://github.com/delphidabbler/delphidabbler.github.io/issues) instead.*
+
+
+If you find a bug in any of the demos please report it on the [Issues page](https://github.com/delphidabbler/article-demos/issues).
 
 Before creating a new issue please do the following:
 
