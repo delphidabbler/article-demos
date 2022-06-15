@@ -1,4 +1,4 @@
-# Demo code for Article 06
+# Demo code for Article 6
 
 This directory contains demo code for DelphiDabbler's article "[How to access environment variables](https://delphidabbler.com/articles/article-6)".
 
@@ -8,4 +8,6 @@ To learn how to use the demo see `ReadMe.txt`.
 
 There is a change log for this demo: see `ChangeLog.txt`.
 
-The demo code is licensed under the [MIT License](https://github.com/delphidabbler/article-demos/blob/master/LICENSE.md).
+## Bug Reports
+
+If you find a bug in the demo code, please report it. See the [main read-me file](https://github.com/delphidabbler/article-demos/blob/master/README.md#bug-reports) for information on how to do so.

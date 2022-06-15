@@ -4,4 +4,6 @@ This directory contains demo code for DelphiDabbler's article "[How to receive d
 
 The demo was not originally developed under version control. It's last update was on 10 Dec 2006: this is probably the only version released. The code was added to the [`delphidabbler/article-demos`](https://github.com/delphidabbler/article-demos) GitHub repository on 24 April 2022.
 
-The demo code is licensed under the [MIT License](https://github.com/delphidabbler/article-demos/blob/master/LICENSE.md).
+## Bug Reports
+
+If you find a bug in the demo code, please report it. See the [main read-me file](https://github.com/delphidabbler/article-demos/blob/master/README.md#bug-reports) for information on how to do so.
