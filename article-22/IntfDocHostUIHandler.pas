@@ -4,6 +4,8 @@
   https://delphidabbler.com/articles/article-22
 
   This unit defines the IDocHostUIHandler interface and associated structures.
+
+  MIT License: see LICENSE.md
 }
 
 

@@ -5,6 +5,8 @@
 
   This unit provides a do-nothing implementation of a web browser OLE container
   object
+
+  MIT License: see LICENSE.md
 }
 
 

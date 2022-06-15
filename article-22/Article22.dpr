@@ -4,6 +4,8 @@
   https://delphidabbler.com/articles/article-22
 
   This is the main project file.
+
+  MIT License: see LICENSE.md
 }
 
 
