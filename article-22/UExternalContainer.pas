@@ -5,6 +5,8 @@
 
   This unit defines the IDocHostUIHandler implementation that provides the
   external object to the TWebBrowser.
+
+  MIT License: see LICENSE.md
 }
 
 

@@ -4,6 +4,8 @@
   https://delphidabbler.com/articles/article-22
 
   This unit defines a class that extends the TWebBrowser's external object.
+
+  MIT License: see LICENSE.md
 }
 
 

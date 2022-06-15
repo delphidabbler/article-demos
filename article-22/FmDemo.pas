@@ -4,6 +4,8 @@
   https://delphidabbler.com/articles/article-22
 
   This unit defines the main form class.
+
+  MIT License: see LICENSE.md
 }
 
 
