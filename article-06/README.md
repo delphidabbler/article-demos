@@ -8,3 +8,6 @@ To learn how to use the demo see `ReadMe.txt`.
 
 There is a change log for this demo: see `ChangeLog.txt`.
 
+## Bug Reports
+
+If you find a bug in the demo code, please report it. See the [main read-me file](https://github.com/delphidabbler/article-demos/blob/master/README.md#bug-reports) for information on how to do so.
