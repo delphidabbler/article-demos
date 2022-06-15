@@ -1,11 +1,11 @@
 # article-demos
 
-Demo code relating to articles on [delphidabbler.com](https://delphidabbler.com).
+This repository contains demo code relating to [articles](https://delphidabbler.com/articles) on [delphidabbler.com](https://delphidabbler.com).
 
-# License
+Each article's demo is placed in a subdirectory named after the article number.
 
-Most of the demo code in this repository is licensed under the MIT License and is copyright &copy; 2020-2022, [Peter Johnson](http://gravatar.com/delphidabbler). The full license can be found in the file [`LICENSE.md`](https://github.com/delphidabbler/article-demos/blob/master/LICENSE.md).
+# Licenses
 
-One exception is `.gitignore`, which is based on `Delphi.gitignore` from the [github/gitignore](https://github.com/github/gitignore) project and is licensed under the [CC0-1.0](https://raw.githubusercontent.com/github/gitignore/master/LICENSE) Public Domain license.
+Each article's demo code has its own license that is described in a file named `LICENSE.md` located in the demo subdirectory.
 
-Other exceptions are noted each demo's `README.md` file.
+`.gitignore`, in the repository root, is based on `Delphi.gitignore` from the [github/gitignore](https://github.com/github/gitignore) project and is licensed under the [CC0-1.0](https://raw.githubusercontent.com/github/gitignore/master/LICENSE) Public Domain license.
