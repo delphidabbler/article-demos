@@ -26,7 +26,9 @@ Once the program has been tested, examine the code in the various units.
 
 The code has been tested on Windows 11 with Delphi XE and Delphi 11.0 Alexandria. When compiled with Delphi 11.0, both 32 bit and 64 bit targets have been tested to compile and run correctly.
 
-> It is probable, but not guaranteed, that the code will work with compilers back to Delphi 7, but this has not been tested using the latest version.
+It is probable, but not guaranteed, that the code will work with compilers back to Delphi 7, but this has not been tested.
+
+> **Note:** Some versions of Delphi (for example Delphi XE) will complain when opening `Article22.dpr` about the project being in Delphi 2007 format and will offer to back up the project file. Just accept this suggestion and everything should compile properly.
 
 ## Bug Reports
 
