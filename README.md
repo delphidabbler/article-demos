@@ -4,7 +4,7 @@ This repository contains demo code relating to [articles](https://delphidabbler.
 
 Each article's demo is placed in a subdirectory named after the article number.
 
-# Bugs
+# Bug Reports
 
 > **Note:** Unless otherwise stated, the demos are designed for compilation with Delphi for Windows targets only. Please do not report bugs for other compilers or other OS targets.
 
