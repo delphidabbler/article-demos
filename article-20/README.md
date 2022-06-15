@@ -5,5 +5,3 @@ This directory contains demo code for DelphiDabbler's article "[How to extract v
 The demo was not originally developed under version control. The last update before being placed under version control appears to have been during 2005. The code was added to the [`delphidabbler/article-demos`](https://github.com/delphidabbler/article-demos) GitHub repository on 14 June 2022.
 
 To learn how to use the demo see `ReadMe.txt`.
-
-The demo code is licensed under the [MIT License](https://github.com/delphidabbler/article-demos/blob/master/LICENSE.md).
