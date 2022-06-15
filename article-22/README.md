@@ -24,8 +24,12 @@ To use the demo start Delphi and load `Article22.dpr`. Compile the program and r
 
 Once the program has been tested, examine the code in the various units.
 
-The code has been tested on Windows 11 with Delphi XE and Delphi 11.0 Alexandria.
+The code has been tested on Windows 11 with Delphi XE and Delphi 11.0 Alexandria. When compiled with Delphi 11.0, both 32 bit and 64 bit targets have been tested to compile and run correctly.
+
+> It is probable, but not guaranteed, that the code will work with compilers back to Delphi 7, but this has not been tested using the latest version.
 
 ## Bug Reports
 
 If you find a bug in the demo code, please report it. See the [main read-me file](https://github.com/delphidabbler/article-demos/blob/master/README.md#bug-reports) for information on how to do so.
+
+> **Note:** Any bug that relates to compilation with a compiler earlier than Delphi XE will not be fixed, unless you can provide such a fix.
