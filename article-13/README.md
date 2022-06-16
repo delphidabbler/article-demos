@@ -4,8 +4,6 @@ This directory contains demo code for DelphiDabbler's article "[How to run a sin
 
 The demo was not originally developed under version control. It's last update was probably on 9 May 2011. The code was added to the [`delphidabbler/article-demos`](https://github.com/delphidabbler/article-demos) GitHub repository on 14 June 2022.
 
-To learn how to use the demo see `ReadMe.html`.
-
 ## About the Demo
 
 The code was originally written in Delphi 4 and was revised using Delphi 7 on 7th August 2005. The code was updated to work correctly when compiled with Unicode versions of Delphi on 9th May 2011 and tested with Delphi 2010. The code should work with versions back to Delphi 4 but this hasn't been tested.
