@@ -4,7 +4,13 @@ This directory contains demo code for DelphiDabbler's article "[How to load and 
 
 The demo was not originally developed under version control. It's last update was on 6 February 2010. The code was added to the [`delphidabbler/article-demos`](https://github.com/delphidabbler/article-demos) GitHub repository on 14 June 2022.
 
-To learn how to use the demo see `ReadMe.txt`.
+## About the Demo
+
+Open the `WebBrowserTests` project in Delphi and compile the source code. Supports Delphi 7 and above. Not tested with earlier versions.
+
+Additional features are included in the demo when compiled with Unicode support (Delphi 2009 and later).
+
+Run the compiled program and read the help information displayed in the program's right hand "help" pane.
 
 ## Bug Reports
 
