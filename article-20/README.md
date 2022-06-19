@@ -6,6 +6,13 @@ The demo was not originally developed under version control. The last update bef
 
 ## About the Demo
 
+The demo program can load version information from one of four supplied executables. One of these is the demo program itself while the others are do-nothing console programs whose sole purpose is to have their version information checked by the demo. The example programs contain various different configurations of version information as follows:
+
+* the demo program has a single translation / string table
+* one console program has two translations / string tables
+* another has no translations (just fixed file information)
+* the last has no version information at all
+
 The following files are included in the demo:
 
 * `Article20.bpg` - main project group - four programs
