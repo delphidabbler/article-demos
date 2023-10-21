@@ -30,7 +30,7 @@ type
   end;
 
 const
-  AllDelphis: array[0..24] of TDelphiInfo = (
+  AllDelphis: array[0..25] of TDelphiInfo = (
     (Name: '2'; RegKey: '\SOFTWARE\Borland\Delphi\2.0'),
     (Name: '3'; RegKey: '\SOFTWARE\Borland\Delphi\3.0'),
     (Name: '4'; RegKey: '\SOFTWARE\Borland\Delphi\4.0'),
@@ -55,7 +55,8 @@ const
     (Name: '10.2 Tokyo'; RegKey: '\Software\Embarcadero\BDS\19.0'),
     (Name: '10.3 Rio'; RegKey: '\Software\Embarcadero\BDS\20.0'),
     (Name: '10.4 Sydney'; RegKey: '\Software\Embarcadero\BDS\21.0'),
-    (Name: '11 Alexandria'; RegKey: '\Software\Embarcadero\BDS\22.0')
+    (Name: '11 Alexandria'; RegKey: '\Software\Embarcadero\BDS\22.0'),
+    (Name: '12 Yukon'; RegKey: '\Software\Embarcadero\BDS\23.0')
   );
 
 function IsRegisteredInRootKey(RootKey: HKEY; SubKey: string): Boolean;
