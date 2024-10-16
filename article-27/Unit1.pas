@@ -56,7 +56,7 @@ const
     (Name: '10.3 Rio'; RegKey: '\Software\Embarcadero\BDS\20.0'),
     (Name: '10.4 Sydney'; RegKey: '\Software\Embarcadero\BDS\21.0'),
     (Name: '11 Alexandria'; RegKey: '\Software\Embarcadero\BDS\22.0'),
-    (Name: '12 Yukon'; RegKey: '\Software\Embarcadero\BDS\23.0')
+    (Name: '12 Athens'; RegKey: '\Software\Embarcadero\BDS\23.0')
   );
 
 function IsRegisteredInRootKey(RootKey: HKEY; SubKey: string): Boolean;
